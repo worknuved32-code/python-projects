@@ -19,7 +19,11 @@ while True:
     elif choice==3:
       print("Result :",a*b)   
     elif choice==4:
-       print("Result :",a/b)
+       if b==0:
+         print("cannot be divisible by 0")
+       else :
+        print("Result :",a/b)
+
     else :
        print("Invalid choice!!! \n try again")     
 
